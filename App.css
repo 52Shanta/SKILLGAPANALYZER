@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1e3a8a, #9333ea);
+  color: white;
+}
+
+/* Layout */
+.app {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 230px;
+  height: 100vh;
+  background: rgba(0,0,0,0.3);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  position: fixed;
+}
+
+.sidebar h2 {
+  color: #facc15;
+}
+
+.sidebar li {
+  padding: 12px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.sidebar li:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+/* Main */
+.main {
+  margin-left: 240px;
+  padding: 30px;
+}
+
+/* Cards */
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(12px);
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+/* Button */
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background: #facc15;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #fde047;
+}
